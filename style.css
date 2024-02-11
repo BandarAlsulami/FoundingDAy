@@ -1,0 +1,139 @@
+/* Reset default styles */
+body {
+  font-family: "Tahoma", "open sans", "sans-serif";
+  background: white;
+}
+
+/* Style the navigation menu */
+h1 {
+  color: #426c35;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.menu {
+  background-color: #426c35;
+  overflow: auto;
+}
+
+.menu ul {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Style the main content */
+.menu li a {
+  display: inline-block;
+  height: 20;
+  width: 150px;
+  color: #333333;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 4px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.menu li a :hover {
+  background-color: #d6d599;
+}
+
+.main {
+  overflow: auto;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main h2 {
+  overflow: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  background-color: #d6d599;
+  color: #426c35;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.photos {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f0ede4;
+}
+
+.photos img {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #426c35;
+  border-radius: 6px;
+  margin: 2px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.photos h2 {
+  color: #426c35;
+  font-size: 28px;
+}
+
+.footer {
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #777777;
+}
+.footer ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer li {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer li a {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  color: #333333;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer li a :hover {
+  background-color: #d6d599;
+}
+
+.footer h2 {
+  color: #d6d599;
+}
+
+.footer p {
+  color: #f5f5f5;
+}
